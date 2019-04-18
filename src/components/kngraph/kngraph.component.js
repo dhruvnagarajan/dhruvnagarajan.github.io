@@ -4,9 +4,16 @@ import * as data from './feature.json'
 
 export default class KnGraph extends React.Component {
     render() {
+        const feature = data.feature;
         return (
             <div className="outer">
-                <span className="chip">{ data.feature[0]["title"] }</span>
+                <ul>
+                {
+                    feature.map((item, key) => {
+                        return <span className="chip">{ item.title }</span>
+                    })
+                }
+                </ul>
             </div>
         )
     }
