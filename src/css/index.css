@@ -29,10 +29,10 @@ body {
 }
 
 .chip {
-  border: solid 1px #666;
+  border: solid 0.5`px #666;
   border-radius: 4px;
   font-size: 14px;
-  padding: 8px;
+  padding: 10px;
   margin: 8px;
 }
 
@@ -56,4 +56,15 @@ body {
 
 .outer {
   flex-wrap: wrap;
+}
+
+ul, ul li {
+  padding: 0;
+  padding-top: 5px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+div {
+  /* border: 1px solid red; */
 }

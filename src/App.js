@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/App.css'
+import { Grid, Row, Col } from 'react-flexbox-grid'
 import Header from './components/header/header.component'
 import Projects from './components/projects/projects.component'
 import KnGraph from './components/kngraph/kngraph.component'
@@ -13,9 +14,10 @@ export default class App extends React.Component {
         <Header />
         <Abilities />
         <Projects />
+        <br/>
         <KnGraph />
         <FooterComponent />
       </div>
-    );
+    )
   }
 }
