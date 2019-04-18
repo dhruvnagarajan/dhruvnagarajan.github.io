@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #D4B483;
+}
+
+.left {
+  text-align: center;
+}
+
+.right {
+  text-align: center;
+}
+
+.profile {
+  background-color: #227A8A;
+  color: aliceblue;
+  padding: 24px;
+}
+
+.text-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.box {
+  box-shadow: 4px 8px #000;
+  margin-bottom: 10px;
+}
