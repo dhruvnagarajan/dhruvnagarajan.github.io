@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import html2canvas from 'html2canvas'
 import jsPDF from 'jspdf'
 import ReactDOMServer from 'react-dom/server'
+import { Button } from 'react-bootstrap'
 
 export default class FooterComponent extends Component {
     
@@ -20,7 +21,7 @@ export default class FooterComponent extends Component {
     render() {
         return (
             <div className="outer h6 lol" id="ASD" onClick={ this.print }>
-                &copy; 2019 dhruvaraj nagarajan
+                <Button>&copy; 2019 dhruvaraj nagarajan</Button>
             </div>
         )
     }
