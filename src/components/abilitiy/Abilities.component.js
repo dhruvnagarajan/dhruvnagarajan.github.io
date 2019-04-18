@@ -8,7 +8,7 @@ export default class Abilities extends React.Component {
         return (
             <div className="outer">
             <div className="h3 b l">Abilities</div>
-              <div className="chipContainer l">
+              <div className="chip l">
                 <ul>
                 {
                   abilities.map((ability, key) => {

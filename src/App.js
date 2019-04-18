@@ -9,7 +9,7 @@ import FooterComponent from './components/footer/Footer.component'
 export default class App extends React.Component {
   render() {
     return (
-      <div className="App pdfView" id="pdfView">
+      <div className="App">
         <Header />
         <Abilities />
         <Projects />

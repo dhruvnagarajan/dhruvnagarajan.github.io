@@ -3,7 +3,6 @@ body {
   padding: 0;
   background: white; 
   font-family: 'Courier New', Courier, monospace;
-  transform: scale(1);
 }
 
 .pdfView {

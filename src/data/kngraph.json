@@ -1,11 +1,11 @@
 {
   "kngraph": [
     {
-      "title": "android, jetpack",
+      "title": "android, jetpack, rxjava",
       "score": 8
     },
     {
-      "title": "react/native, redux, saga",
+      "title": "react, redux, saga",
       "score": 8
     },
     {

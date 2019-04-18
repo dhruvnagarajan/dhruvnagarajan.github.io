@@ -20,9 +20,7 @@ export default class FooterComponent extends Component {
     render() {
         return (
             <div className="outer h6 lol" id="ASD" onClick={ this.print }>
-            &copy; 2019 dhruvaraj nagarajan
-            <br/><br/>
-                Built with reactJS on dhruvnagarajan.com
+                &copy; 2019 dhruvaraj nagarajan
             </div>
         )
     }
