@@ -12,18 +12,17 @@ body {
   text-align: center;
 }
 
-.profile {
-  padding: 24px;
-}
-
-.text-title {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-}
-
 .box {
   border: solid 1px #ccc;
   border-radius: 4px;
   margin: 10px;
+}
+
+.chip {
+  border: solid 1px #666;
+  border-radius: 4px;
+  background-color: #CDDC39;
+  font-size: 14px;
+  padding: 8px;
+  margin: 8px;
 }

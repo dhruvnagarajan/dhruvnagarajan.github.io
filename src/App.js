@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css';
-import Profile from './components/profile/profile.component';
-import KnGraph from './components/skills/kngraph/kngraph.component';
+import React from 'react'
+import './css/App.css'
+import Header from './components/header/header.component'
+import KnGraph from './components/kngraph/kngraph.component'
 
 export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Profile />
+        <Header />
         <KnGraph />
       </div>
     );
