@@ -1,7 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  background: white; 
   font-family: 'Courier New', Courier, monospace;
+  transform: scale(1);
+}
+
+.pdfView {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0.5cm auto;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
 }
 
 .left {
@@ -21,8 +32,29 @@ body {
 .chip {
   border: solid 1px #666;
   border-radius: 4px;
-  background-color: #CDDC39;
   font-size: 14px;
   padding: 8px;
   margin: 8px;
+}
+
+.chip-black {
+  background-color: #666;
+  border: solid 1px #666;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.chip-small {
+  border: solid 1px #666;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.outer {
+  flex-wrap: wrap;
 }

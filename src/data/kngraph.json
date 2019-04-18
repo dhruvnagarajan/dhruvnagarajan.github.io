@@ -1,0 +1,28 @@
+{
+  "kngraph": [
+    {
+      "title": "android, jetpack",
+      "score": 8
+    },
+    {
+      "title": "react/native, redux, saga",
+      "score": 8
+    },
+    {
+      "title": "flutter, dart",
+      "score": 1
+    },
+    {
+      "title": "python, tensorflow, keras",
+      "score": 6
+    },
+    {
+      "title": "graph theory",
+      "score": 9
+    },
+    {
+      "title": "deep learning",
+      "score": 6
+    }
+  ]
+}

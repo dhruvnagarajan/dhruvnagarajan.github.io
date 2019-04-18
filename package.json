@@ -4,12 +4,14 @@
   "private": true,
   "homepage": "https://dhruvnagarajan.github.io/myapp",
   "dependencies": {
+    "deploy": "gh-pages -d build",
+    "html2canvas": "^1.0.0-alpha.12",
+    "jspdf": "^1.5.3",
     "mongodb": "^3.1.9",
+    "predeploy": "npm run build",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
