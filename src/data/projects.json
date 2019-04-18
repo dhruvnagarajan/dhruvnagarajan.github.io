@@ -5,7 +5,7 @@
       "projects": [
         {
           "name": "Virtual Channel Allocation in NoC, ANN",
-          "stack": [],
+          "stack": ["c++"],
           "responsibilities": [
             "Pioneered an approach to optimizing Virtual Channel Allocation using ML",
             "Implemented a Perceptron purely in C++, since it runs on a chip",
@@ -18,7 +18,7 @@
         },
         {
           "name": "DDoS Detection, ANN",
-          "stack": [],
+          "stack": ["tensorflow"],
           "responsibilities": [
             "Researched various ways to solving DDoS",
             "Implented an Entropy-based algorithm for a possible solution, overnight",
