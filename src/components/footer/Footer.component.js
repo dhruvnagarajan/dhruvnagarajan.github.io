@@ -24,7 +24,7 @@ export default class FooterComponent extends Component {
             <div className="outer h6 lol" id="ASD" onClick={ this.print }>
                 <Grid fluid>
                     <Row center="xs">
-                        <b>Contact xdeebot.social@gmail.com</b>
+                        <b>xdeebot.work@gmail.com</b>
                     </Row>
                     <br/>
                     <Row center="xs">

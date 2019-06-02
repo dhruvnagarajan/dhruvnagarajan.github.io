@@ -4,6 +4,19 @@
       "name": "Machine Learning",
       "projects": [
         {
+          "name": "Autonomous drone",
+          "stack": ["kotlin, android-embedded, iot, c++"],
+          "responsibilities": [
+            "Pioneered an approach to optimizing Virtual Channel Allocation using ML",
+            "Implemented a Perceptron purely in C++, since it runs on a chip",
+            "Deeply understood the NoC architecture and underlying bottlenecks",
+            "Have an understanding of all the possible areas of advancements",
+            "Solely developed the entire codebase in 1 month",
+            "Occasionally provide support to juniors who continue the work"
+          ],
+          "organization": "#raspberry-pi #personal"
+        },
+        {
           "name": "Virtual Channel Allocation in NoC, ANN",
           "stack": ["c++"],
           "responsibilities": [
@@ -14,7 +27,7 @@
             "Solely developed the entire codebase in 1 month",
             "Occasionally provide support to juniors who continue the work"
           ],
-          "organization": "#universityResearch"
+          "organization": "#university #research"
         },
         {
           "name": "DDoS Detection, ANN",
@@ -24,7 +37,7 @@
             "Implented an Entropy-based algorithm for a possible solution, overnight",
             "Picked up Tensorflow in 1 week and implemented a Perceptron to solve the problem"
           ],
-          "organization": "#universityResearch"
+          "organization": "#university #research"
         }
       ]
     },
@@ -40,7 +53,7 @@
             "Lead a team of 3 people who never worked on Android before",
             "Shipped the app in 3 weeks"
           ],
-          "organization": "#personal app not live"
+          "organization": "#personal"
         },
         {
           "name": "Goal, Business Analytics",
@@ -53,7 +66,7 @@
             "Picked up and implemented Sagas along with Redux",
             "Reduced time to develop new features"
           ],
-          "organization": "@airtel"
+          "organization": ""
         },
         {
           "name": "DTH Mobile",
