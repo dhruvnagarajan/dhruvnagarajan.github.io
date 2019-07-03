@@ -11,12 +11,18 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <Abilities />
-        <Projects />
-        <br/>
-        <KnGraph />
-        <FooterComponent />
+        <Grid>
+        <Row>
+          <Col xs={12} sm={12} md={12} lg={12}>
+            <Header />
+            <Abilities />
+            <Projects />
+            <br/>
+            <KnGraph />
+            <FooterComponent />
+          </Col>
+          </Row>
+        </Grid>
       </div>
     )
   }
